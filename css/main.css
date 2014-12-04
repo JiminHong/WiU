@@ -67,7 +67,7 @@ td:first-child{
 	/*border-bottom: 1px solid #bbb8bf;*/
 }
 .main p{
-	width: 67.5%;
+	width: 50%;
 	float: left;
 	font-size: 1.4em;
 
@@ -75,7 +75,7 @@ td:first-child{
 .main figure{
 	float: right;
 	margin: 15px 0 20px 0;
-	width: 30%;
+	width: 50%;
 
 }
 figure img{
