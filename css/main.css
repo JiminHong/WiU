@@ -22,6 +22,7 @@ header{
 	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
 }
 h1{
+    color: blue;
 	margin-top: 0;
 	padding-top: 10px;
 }
