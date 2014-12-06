@@ -1,13 +1,13 @@
 
 /*-------------------------------------------  general -------------------------------------------------------*/
 body{
-	font-size: 62.5%;
+	font-size: 100%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color:#47484a;
 	margin-top: 0;
 }
 #wrapper{
-	width:960px;
+	width: 90%;
 	margin: 0 auto;
 	padding-left: 1%;
 	padding-right: 1%;
@@ -19,11 +19,13 @@ body{
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	border-bottom: 1px solid #81b0f9;
 }
 h1{
-    color: blue;
-	margin-top: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    color: #3c5780;
+	margin: 10px auto;
 	padding-top: 10px;
 }
 h2{
@@ -31,24 +33,24 @@ h2{
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #f7f7f9;  /*changes color of the background of the table*/
-	border-collapse: collapse;
-	width: 100%;
+	background: #e9f1fd;
+	/* border-collapse: collapse; */
+	width: 70%;
 }
 tr{
 	display: table-row;
 	border-color: inherit;
 }
 .odd{
-	background: #ececec; /*changes color of the stripes table*/
+	background: #cee1fd;
 }
 th{
 	text-align: left;
-	padding: 1em 1em .5em;
+	padding: 1em 1em;
 	font-weight: bold;
-	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	font-size: 140%;
+	color: #f6f6f6;
+	background: #5e6b7e;
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
@@ -68,14 +70,16 @@ td:first-child{
 }
 .main p{
 	width: 50%;
-	float: left;
-	font-size: 1.4em;
+	line-height: 1.3em;
+    margin-top: 5px;
+    padding-right: 10px;
 
 }
 .main figure{
-	float: right;
-	margin: 15px 0 20px 0;
+	float: left;
+	margin: 5px 0 20px 0;
 	width: 50%;
+
 
 }
 figure img{
@@ -91,10 +95,11 @@ figure img{
 a{
 	text-decoration: none;
 	font-size: 1.3em;
-	color: #475a80;  /*changes color of the links*/
+	color: #277aba;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
+    color: #103f64;
 }
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
